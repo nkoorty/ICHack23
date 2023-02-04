@@ -1,2 +1,8 @@
-# ICHack23
-Code repository for ICHack23
+# EpiSensor - ICHack23
+
+EpiSensor is an iOS mobile application that detects if you are having a convulsive epileptic seizure through an intelligent algorithms which analyses accelerometer data and harnesses the power of Terra API to integrate with wearable technologies. Following the detection of a seizure, the app runs a countdown for an adjustable amount of time in which the alarm can be deactivated, in case of a false positive. If the alarm is not deactivated the app automatically send your emergency contacts both a text message and your current geolocation.
+
+The motivation for this project was to provide a mobile app that is free to use, include the most essential features for a patient who is self-managing their own epilepsy whilst providing a healthcare collaboration feature which we found to be an underdeveloped area in the current epilepsy app market. 
+
+The detection of the seizure is split into 2 sections, a fall detection and seizure detection algorithm. As mentioned it is based on an accelerometer monitoring movement and uses a fourier transform to extract the frequency spectrum of the movement, and monitors movements in a given frequency band. The idea is that it will detect the rhythmic movements associated with a seizure, but not normal day to day activities. If the acceleration within the given frequency band is more than a threshold value, it starts a timer. If the acceleration remains above the threshold for a given period, it issues a warning beep. If it remains above the threshold for a longer specified period, the unit alarms (continuous tone rather than beep).
+
