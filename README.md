@@ -1,4 +1,4 @@
-# EpiSensor - ICHack23
+# EpiSensor - ICHack23 powered by Terra API
 
 EpiSensor is an iOS mobile application that detects if you are having a convulsive epileptic seizure through an intelligent algorithms which analyses accelerometer data and harnesses the power of Terra API to integrate with wearable technologies. Following the detection of a seizure, the app runs a countdown for an adjustable amount of time in which the alarm can be deactivated, in case of a false positive. If the alarm is not deactivated the app automatically send your emergency contacts both a text message and your current geolocation.
 
