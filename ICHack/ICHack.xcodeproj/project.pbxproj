@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1765D1298E9D3900940262 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765D0298E9D3900940262 /* UITableView+Ext.swift */; };
+		9C1765D3298E9D4400940262 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765D2298E9D4400940262 /* UIView+Ext.swift */; };
+		9C1765D5298E9D4E00940262 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765D4298E9D4E00940262 /* UILabel+Ext.swift */; };
+		9C1765D7298E9D5F00940262 /* UISearchTextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765D6298E9D5F00940262 /* UISearchTextField+Ext.swift */; };
+		9C1765D9298E9D6B00940262 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765D8298E9D6B00940262 /* UIColor+Ext.swift */; };
+		9C1765DB298E9D7A00940262 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765DA298E9D7A00940262 /* UICollectionView+Ext.swift */; };
+		9C1765DD298E9D8900940262 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765DC298E9D8900940262 /* UIButton+Ext.swift */; };
+		9C1765E0298E9F3000940262 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765DF298E9F3000940262 /* TabBarController.swift */; };
+		9C1765E4298E9F6D00940262 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765E3298E9F6D00940262 /* HomeViewController.swift */; };
+		9C1765E7298E9F9800940262 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765E6298E9F9800940262 /* DataViewController.swift */; };
+		9C1765EB298E9FCF00940262 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765EA298E9FCF00940262 /* ProfileViewController.swift */; };
+		9C1765ED298EB0FE00940262 /* TopBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765EC298EB0FE00940262 /* TopBarController.swift */; };
+		9C1765EF298EB3B500940262 /* ForYouMarketplaceSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765EE298EB3B500940262 /* ForYouMarketplaceSlider.swift */; };
+		9C1765F3298EB74700940262 /* StatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765F2298EB74700940262 /* StatsCell.swift */; };
+		9C1765F5298EB80E00940262 /* OverViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1765F4298EB80E00940262 /* OverViewCell.swift */; };
+		9C1765FA298EF4B000940262 /* TerraiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 9C1765F9298EF4B000940262 /* TerraiOS */; };
+		9C176600298EFD4A00940262 /* TerraRTiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 9C1765FF298EFD4A00940262 /* TerraRTiOS */; };
+		9C176614298F66EC00940262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C176613298F66EC00940262 /* ContentView.swift */; };
+		9C176617298F69D100940262 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 9C176616298F69D100940262 /* SwiftUICharts */; };
+		9C176619298F6D1C00940262 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C176618298F6D1C00940262 /* ContentView1.swift */; };
+		9C17661B298F726800940262 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17661A298F726800940262 /* Activity.swift */; };
+		9C17661E298F72AC00940262 /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 9C17661D298F72AC00940262 /* ActivityIndicatorView */; };
 		9CE7B120298E724000C2189A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7B11F298E724000C2189A /* AppDelegate.swift */; };
 		9CE7B122298E724000C2189A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7B121298E724000C2189A /* SceneDelegate.swift */; };
 		9CE7B124298E724000C2189A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7B123298E724000C2189A /* ViewController.swift */; };
@@ -37,6 +59,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C1765D0298E9D3900940262 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		9C1765D2298E9D4400940262 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		9C1765D4298E9D4E00940262 /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		9C1765D6298E9D5F00940262 /* UISearchTextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchTextField+Ext.swift"; sourceTree = "<group>"; };
+		9C1765D8298E9D6B00940262 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		9C1765DA298E9D7A00940262 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		9C1765DC298E9D8900940262 /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		9C1765DF298E9F3000940262 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9C1765E3298E9F6D00940262 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C1765E6298E9F9800940262 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		9C1765EA298E9FCF00940262 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9C1765EC298EB0FE00940262 /* TopBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarController.swift; sourceTree = "<group>"; };
+		9C1765EE298EB3B500940262 /* ForYouMarketplaceSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouMarketplaceSlider.swift; sourceTree = "<group>"; };
+		9C1765F2298EB74700940262 /* StatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCell.swift; sourceTree = "<group>"; };
+		9C1765F4298EB80E00940262 /* OverViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewCell.swift; sourceTree = "<group>"; };
+		9C1765FB298EF6C500940262 /* ICHack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ICHack.entitlements; sourceTree = "<group>"; };
+		9C176613298F66EC00940262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C176618298F6D1C00940262 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
+		9C17661A298F726800940262 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		9CE7B11C298E724000C2189A /* ICHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE7B11F298E724000C2189A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE7B121298E724000C2189A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +99,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C176617298F69D100940262 /* SwiftUICharts in Frameworks */,
+				9C1765FA298EF4B000940262 /* TerraiOS in Frameworks */,
+				9C17661E298F72AC00940262 /* ActivityIndicatorView in Frameworks */,
+				9C176600298EFD4A00940262 /* TerraRTiOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +123,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C1765CF298E9D0A00940262 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C1765D0298E9D3900940262 /* UITableView+Ext.swift */,
+				9C1765D2298E9D4400940262 /* UIView+Ext.swift */,
+				9C1765D4298E9D4E00940262 /* UILabel+Ext.swift */,
+				9C1765D6298E9D5F00940262 /* UISearchTextField+Ext.swift */,
+				9C1765D8298E9D6B00940262 /* UIColor+Ext.swift */,
+				9C1765DA298E9D7A00940262 /* UICollectionView+Ext.swift */,
+				9C1765DC298E9D8900940262 /* UIButton+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C1765DE298E9F1C00940262 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9C1765DF298E9F3000940262 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		9C1765E2298E9F5600940262 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9C1765E3298E9F6D00940262 /* HomeViewController.swift */,
+				9C1765EC298EB0FE00940262 /* TopBarController.swift */,
+				9C1765EE298EB3B500940262 /* ForYouMarketplaceSlider.swift */,
+				9C1765F2298EB74700940262 /* StatsCell.swift */,
+				9C1765F4298EB80E00940262 /* OverViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9C1765E5298E9F7900940262 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9C1765E6298E9F9800940262 /* DataViewController.swift */,
+				9C176613298F66EC00940262 /* ContentView.swift */,
+				9C176618298F6D1C00940262 /* ContentView1.swift */,
+				9C17661A298F726800940262 /* Activity.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9C1765E9298E9FBE00940262 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9C1765EA298E9FCF00940262 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		9CE7B113298E724000C2189A = {
 			isa = PBXGroup;
 			children = (
+				9C1765CF298E9D0A00940262 /* Extensions */,
+				9C1765E9298E9FBE00940262 /* Profile */,
+				9C1765E5298E9F7900940262 /* Data */,
+				9C1765E2298E9F5600940262 /* Home */,
 				9CE7B11E298E724000C2189A /* ICHack */,
 				9CE7B138298E724200C2189A /* ICHackTests */,
 				9CE7B142298E724200C2189A /* ICHackUITests */,
@@ -101,6 +203,7 @@
 		9CE7B11E298E724000C2189A /* ICHack */ = {
 			isa = PBXGroup;
 			children = (
+				9C1765FB298EF6C500940262 /* ICHack.entitlements */,
 				9CE7B11F298E724000C2189A /* AppDelegate.swift */,
 				9CE7B121298E724000C2189A /* SceneDelegate.swift */,
 				9CE7B123298E724000C2189A /* ViewController.swift */,
@@ -109,6 +212,7 @@
 				9CE7B12D298E724200C2189A /* LaunchScreen.storyboard */,
 				9CE7B130298E724200C2189A /* Info.plist */,
 				9CE7B128298E724000C2189A /* ICHack.xcdatamodeld */,
+				9C1765DE298E9F1C00940262 /* TabBar */,
 			);
 			path = ICHack;
 			sourceTree = "<group>";
@@ -146,6 +250,12 @@
 			dependencies = (
 			);
 			name = ICHack;
+			packageProductDependencies = (
+				9C1765F9298EF4B000940262 /* TerraiOS */,
+				9C1765FF298EFD4A00940262 /* TerraRTiOS */,
+				9C176616298F69D100940262 /* SwiftUICharts */,
+				9C17661D298F72AC00940262 /* ActivityIndicatorView */,
+			);
 			productName = ICHack;
 			productReference = 9CE7B11C298E724000C2189A /* ICHack.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +305,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = artemiy;
 				TargetAttributes = {
 					9CE7B11B298E724000C2189A = {
 						CreatedOnToolsVersion = 14.2;
@@ -218,6 +329,13 @@
 				Base,
 			);
 			mainGroup = 9CE7B113298E724000C2189A;
+			packageReferences = (
+				9C1765F8298EF4B000940262 /* XCRemoteSwiftPackageReference "TerraiOS" */,
+				9C1765FE298EFD4A00940262 /* XCRemoteSwiftPackageReference "TerraRTiOS" */,
+				9C176607298F5A1900940262 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				9C176615298F69D100940262 /* XCRemoteSwiftPackageReference "ChartView" */,
+				9C17661C298F72AC00940262 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+			);
 			productRefGroup = 9CE7B11D298E724000C2189A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,9 +380,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CE7B124298E724000C2189A /* ViewController.swift in Sources */,
+				9C1765ED298EB0FE00940262 /* TopBarController.swift in Sources */,
 				9CE7B120298E724000C2189A /* AppDelegate.swift in Sources */,
+				9C1765D3298E9D4400940262 /* UIView+Ext.swift in Sources */,
+				9C1765D1298E9D3900940262 /* UITableView+Ext.swift in Sources */,
+				9C1765DB298E9D7A00940262 /* UICollectionView+Ext.swift in Sources */,
+				9C176619298F6D1C00940262 /* ContentView1.swift in Sources */,
+				9C1765EF298EB3B500940262 /* ForYouMarketplaceSlider.swift in Sources */,
 				9CE7B12A298E724000C2189A /* ICHack.xcdatamodeld in Sources */,
+				9C176614298F66EC00940262 /* ContentView.swift in Sources */,
 				9CE7B122298E724000C2189A /* SceneDelegate.swift in Sources */,
+				9C1765F5298EB80E00940262 /* OverViewCell.swift in Sources */,
+				9C1765F3298EB74700940262 /* StatsCell.swift in Sources */,
+				9C1765D9298E9D6B00940262 /* UIColor+Ext.swift in Sources */,
+				9C1765E7298E9F9800940262 /* DataViewController.swift in Sources */,
+				9C1765D5298E9D4E00940262 /* UILabel+Ext.swift in Sources */,
+				9C1765E0298E9F3000940262 /* TabBarController.swift in Sources */,
+				9C1765DD298E9D8900940262 /* UIButton+Ext.swift in Sources */,
+				9C1765EB298E9FCF00940262 /* ProfileViewController.swift in Sources */,
+				9C1765E4298E9F6D00940262 /* HomeViewController.swift in Sources */,
+				9C17661B298F726800940262 /* Activity.swift in Sources */,
+				9C1765D7298E9D5F00940262 /* UISearchTextField+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,14 +575,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ICHack/ICHack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 288ZUH88HD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ICHack/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "";
+				INFOPLIST_KEY_NSMotionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,14 +609,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ICHack/ICHack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 288ZUH88HD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ICHack/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "";
+				INFOPLIST_KEY_NSMotionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -600,6 +750,72 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C1765F8298EF4B000940262 /* XCRemoteSwiftPackageReference "TerraiOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tryterra/TerraiOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		9C1765FE298EFD4A00940262 /* XCRemoteSwiftPackageReference "TerraRTiOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tryterra/TerraRTiOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+		9C176607298F5A1900940262 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		9C176615298F69D100940262 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
+		9C17661C298F72AC00940262 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C1765F9298EF4B000940262 /* TerraiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C1765F8298EF4B000940262 /* XCRemoteSwiftPackageReference "TerraiOS" */;
+			productName = TerraiOS;
+		};
+		9C1765FF298EFD4A00940262 /* TerraRTiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C1765FE298EFD4A00940262 /* XCRemoteSwiftPackageReference "TerraRTiOS" */;
+			productName = TerraRTiOS;
+		};
+		9C176616298F69D100940262 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C176615298F69D100940262 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		9C17661D298F72AC00940262 /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C17661C298F72AC00940262 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9CE7B128298E724000C2189A /* ICHack.xcdatamodeld */ = {
