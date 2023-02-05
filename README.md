@@ -6,3 +6,8 @@ The motivation for this project was to provide a mobile app that is free to use,
 
 The seizure detection system consists of two parts: fall detection and seizure detection algorithm. The system uses an accelerometer to track movement and applies a Fourier transform to analyze the frequency spectrum of the movement. It focuses on movements within a specific frequency band that are characteristic of seizures and not normal movements. If the acceleration in the frequency band exceeds a certain threshold, a timer starts. If the acceleration remains above the threshold for a set duration, a warning beep is triggered. If it remains high for an extended time, the device emits a continuous alarm tone.
 
+# iOS Frontend
+The frontend of the mobile application is built using UIKit and SwiftUI. The app leverages TerraiOS, SwiftUICharts in order to visualise data beautifully, and an HTTP Server in order to retrieve further data. The app acts as a hub for overall health data but also, based on a fall detection algorithm, detects whether you are having a seizure. The internal backend calculation of whether a fall/seizure occursed is sent to the mobile app and a real-time graph indicated the likelihood of it being a seizure. The cut-off threshold for a seizure warning message is 90% and the user is prompted with a pop-up request where he has to verify that he no seizure has occured - otherwise the emergency services will be called. 
+
+The UI of the App can be seen below.
+
