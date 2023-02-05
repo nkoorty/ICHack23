@@ -2,6 +2,9 @@
 
 EpiSensor is an iOS mobile application that detects if you are having a convulsive epileptic seizure through an intelligent algorithms which analyses accelerometer data and harnesses the power of Terra API to integrate with wearable technologies. Following the detection of a seizure, the app runs a countdown for an adjustable amount of time in which the alarm can be deactivated, in case of a false positive. If the alarm is not deactivated the app automatically send your emergency contacts both a text message and your current geolocation.
 
+### Flow Chart of EpiSensor
+<img src="https://user-images.githubusercontent.com/80065244/216814737-e77cc1d0-160a-4ed8-9298-f21a0a43b04a.png" width=640 height=360>
+
 The motivation for this project was to provide a mobile app that is free to use, include the most essential features for a patient who is self-managing their own epilepsy whilst providing a healthcare collaboration feature which we found to be an underdeveloped area in the current epilepsy app market. 
 
 ## iOS Frontend
