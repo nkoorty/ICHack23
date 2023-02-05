@@ -19,7 +19,7 @@ const WebSocket = require("ws");
 
 const WS_CONNECTION = "wss://ws.tryterra.co/connect";
 
-let hr_list = [];
+let gryo_list = [];
 let time_list = [];
 
 //Generates a token for a developer
@@ -59,8 +59,10 @@ function initWS(token) {
   }
 
   socket.addEventListener("message", function (event) {
-    console.log("↓  " + event.data);
     var message = JSON.parse(event.data);
+    if (message["op"] == 5 && message["t"] == "ACCELERATION") {
+      console.log("↓  " + event.data);
+    }
     if (message["op"] == 2) {
       heartBeat();
       setInterval(heartBeat, message["d"]["heartbeat_interval"]);
@@ -71,9 +73,10 @@ function initWS(token) {
     if (message["op"] == 1) {
       expectingHeartBeatAck = false;
     }
-    if (message["op"] == 5) {
-      hr_list.push(message.d.val);
-      time_list.push(message.d.ts);
+    if (message["op"] == 5 && message["t"] == "ACCELERATION") {
+      let time = message.d.ts.slice(11, -1);
+      gryo_list.push((message.d.d[1])*20);
+      time_list.push(time);
     }
   });
 
@@ -108,7 +111,7 @@ generateToken
   });
 
 app.get("/api/hr", function (req, res) {
-  const data = hr_list;
+  const data = gryo_list;
   res.status(200).json(data);
 });
 
@@ -117,17 +120,6 @@ app.get("/api/timestamps", function (req, res) {
   res.status(200).json(data);
 });
 
-// app.post("/api/hr_timestamps", function (req, res) {
-//   // Parse the incoming request body
-//   const { hr, timestamp } = req.body;
-
-//   // Append the incoming data to the hr_list and time_list arrays
-//   hr_list.push(hr);
-//   time_list.push(timestamp);
-
-//   // Return a success response
-//   res.status(200).json({ message: "Data added successfully." });
-// });
 
 // Server application
 app.get("/*", function (req, res) {
