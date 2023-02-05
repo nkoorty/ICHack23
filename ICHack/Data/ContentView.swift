@@ -60,7 +60,7 @@ struct ContentView: View {
             self.data1.removeFirst(3)
             for _ in 0..<3 {
                 let lastValue = self.data1.last ?? 65.0
-                self.data1.append(Double.random(in: lastValue - 1...lastValue + 5))
+                self.data1.append(Double.random(in: lastValue - 3...lastValue + 3))
             }
             if self.data1.last ?? 0 > 90 {
                 self.showAlert = true
