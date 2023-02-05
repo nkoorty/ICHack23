@@ -14,3 +14,6 @@ The frontend of the mobile application is built using UIKit and SwiftUI. The app
 
 ## JavaScript Backend
 The seizure detection system consists of two parts: fall detection and seizure detection algorithm. The system uses an accelerometer to track movement and applies a Fourier transform to analyze the frequency spectrum of the movement. It focuses on movements within a specific frequency band that are characteristic of seizures and not normal movements. If the acceleration in the frequency band exceeds a certain threshold, a timer starts. If the acceleration remains above the threshold for a set duration, a warning beep is triggered. If it remains high for an extended time, the device emits a continuous alarm tone.
+
+### Hardware Devices
+<img src="https://user-images.githubusercontent.com/80065244/216814210-066b039b-3ffe-40ed-9214-2eaf775ac1f0.jpg" wdith=300 height=400>
